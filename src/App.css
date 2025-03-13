@@ -39,3 +39,65 @@
 .read-the-docs {
   color: #888;
 }
+
+/* --- Notifications Section --- */
+.notifications {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+.notification-item {
+  background-color: #f8f9fa;
+  border-left: 5px solid #646cff;
+  padding: 1rem;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.notification-item h3 {
+  margin: 0 0 5px;
+  font-size: 1.2em;
+}
+
+.notification-item p {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.notification-item button {
+  align-self: flex-end;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.notification-item button:hover {
+  background-color: #4b50b0;
+}
+
+/* --- Buttons --- */
+.btn-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.warning {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.warning:hover {
+  background-color: darkred;
+}
